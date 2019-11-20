@@ -37,6 +37,12 @@ html{
     bottom: 30px;
     width: 100%;
 }
+
+.center { 
+    margin: 0 auto;
+    width: 600px;
+    vertical-align: bottom;
+ }
 #social_media_icon:active {
     transform:  translate(0px,2px);
     -webkit-transform: translate(0px, 2px);
