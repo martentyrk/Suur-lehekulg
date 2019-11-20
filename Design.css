@@ -2,20 +2,36 @@ body{
     background-position: center top; 
     background-repeat: no-repeat; 
     background-attachment: fixed;
+    background-color: black;
     
 }
-html{
-    background: url("./pildid/RobertLeht.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -10;
+    opacity: 0.2;
+}
+#bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
 }
 .taust {
     position: center top;
-    size: 80% 100%;
-    z-index: -5;
+    size: 100% 100%;
+    z-index: 1;
     background-color: black;
+    opacity: 50%;
+    color: black;
 
 }
 #social_media_icon{
@@ -39,9 +55,14 @@ html{
 }
 
 .center { 
-    margin: 0 auto;
-    width: 600px;
-    vertical-align: bottom;
+    position: absolute;
+    margin: auto;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:10px solid
+    
+    
  }
 #social_media_icon:active {
     transform:  translate(0px,2px);
