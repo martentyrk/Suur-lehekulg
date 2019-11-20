@@ -1,6 +1,24 @@
 body{
-    background-color: #252525;
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    
 }
+html{
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.taust {
+    position: center top;
+    size: 80% 100%;
+    z-index: -5;
+    background-color: black;
+
+}
+
 #social_media_icon{
     width: 50px;
     height: 50px;
@@ -10,7 +28,6 @@ body{
 #pageTitle{
     font-size: 70px;
     text-align: center;
-    background-color: #444444;
     width: 100%;
     margin-top: 0px;
 }
