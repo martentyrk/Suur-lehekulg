@@ -56,9 +56,14 @@ body{
 }
 
 .center { 
-    margin: 0 auto;
-    width: 600px;
-    vertical-align: bottom;
+    position: absolute;
+    margin: auto;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:10px solid
+    
+    
  }
 #social_media_icon:active {
     transform:  translate(0px,2px);
