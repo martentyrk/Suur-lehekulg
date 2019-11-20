@@ -18,7 +18,6 @@ html{
     background-color: black;
 
 }
-
 #social_media_icon{
     width: 50px;
     height: 50px;
@@ -85,3 +84,11 @@ html{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropdownBtn{filter: invert(50%);}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
