@@ -54,7 +54,7 @@ body{
     width: 100%;
 }
 
-.center { 
+.video { 
     position: absolute;
     margin: auto;
     top: 70%;
@@ -104,7 +104,7 @@ body{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropdownBtn{filter: invert(50%);}
+.dropdown:hover .dropdownBtn{filter: invert(50%); transform: scale(1.05) perspective(1px);}
 
 .cursor {
     width: 20px;
