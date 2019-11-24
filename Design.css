@@ -104,7 +104,11 @@ body{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropdownBtn{filter: invert(50%); transform: scale(1.05) perspective(1px);}
+.dropdown:hover .dropdownBtn{
+    filter: invert(50%);
+    transform: scale(1.05) perspective(1px);
+    cursor: pointer;
+    }
 
 .cursor {
     width: 20px;
@@ -112,4 +116,16 @@ body{
     border: 1px solid white;
     border-radius: 50%;
     position: absolute;
+    animation: cursorAnim .5s infinite alternate;
+    z-index: inherit;
+}
+
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(.7);
+    }
 }
