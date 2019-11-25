@@ -71,7 +71,7 @@ body{
  .socialLinks{
     text-align: center;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     width: 100%;
 }
 #social_media_icon:active {
