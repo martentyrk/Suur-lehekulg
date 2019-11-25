@@ -40,6 +40,7 @@ body{
     text-align: center;
     width: 100%;
     margin-top: 0px;
+    font-family: monospace;
 }
 /*Video details*/
 .video { 
@@ -112,3 +113,44 @@ body{
     transform: scale(1.05) perspective(1px);
     cursor: pointer;
     }
+.section-1 {
+        width: 30%;
+        height: 600px;
+        top: 10%;
+        left: 12%;
+       
+        position: absolute;
+    }
+.section-2 {
+    width: 30%;
+    height: 300px;
+    top: 10%;
+    left: 58%;
+    
+    position: absolute;
+}
+.section-3 {
+    width: 30%;
+    height: 300px;
+    top: 40%;
+    left: 58%;
+    
+    position: absolute;
+}
+
+.about {
+    color: white;
+    top: 50px;
+    position: relative;
+    text-align: justify;
+    font-size: 130%;
+    line-height: 1.5em  ;
+    
+}
+
+.aboutpealkiri {
+    color: white;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
