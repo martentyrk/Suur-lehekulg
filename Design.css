@@ -3,7 +3,10 @@ body{
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-color: black;
-    
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #bg {
@@ -16,7 +19,7 @@ body{
     opacity: 0.2;
 }
 #bg img {
-    position: absolute; 
+    position: absolute;
     top: 0; 
     left: 0; 
     right: 0; 
@@ -24,15 +27,8 @@ body{
     margin: auto; 
     min-width: 50%;
     min-height: 50%;
-}
-.taust {
-    position: center top;
-    size: 100% 100%;
-    z-index: 1;
-    background-color: black;
-    opacity: 50%;
-    color: black;
-
+    max-width: 100%;
+    height: 100vh;
 }
 
 #pageTitle{
@@ -41,15 +37,26 @@ body{
     width: 100%;
     margin-top: 0px;
 }
+#home_lehe_info {
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 45%;
+    font-size: x-large;
+    color: white;
+    text-align: justify;
+    line-height: 1.5em;
+}
 /*Video details*/
 .video { 
     position: absolute;
     margin: auto;
-    top: 70%;
-    left: 50%;
+    top: 50%;
+    left: 61%;
     transform: translate(-50%, -50%);
     border:10px solid
-    
     
  }
  /*Everything connected with social media links below */
@@ -86,8 +93,11 @@ body{
     filter: invert(100%);
 
 }
+
 .dropdown {
-    position: relative;
+    position: absolute;
+    top: 0%;
+    left: 0%;
     display: inline-block;
 }
 .dropdown-content {
@@ -101,6 +111,7 @@ body{
     color: white;
     padding: 12px 16px;
     text-decoration: none;
+    text-align: left;
     display: block;
 }
 .dropdown-content a:hover {background-color: rgb(102, 102, 102);}
@@ -112,3 +123,5 @@ body{
     transform: scale(1.05) perspective(1px);
     cursor: pointer;
     }
+
+/*paigutus*/
