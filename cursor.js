@@ -8,7 +8,7 @@ window.addEventListener("mousemove", function(e) {
         elem.style.left = e.pageX + Math.round(Math.random() * j - j / 2) + 'px';
         elem.style.width = size;
         elem.style.height = size;
-        elem.style.zIndex = 1;
+        elem.style.zIndex = 10;
         elem.style.background = 'hsla('  + '1, ' +
         '100%, ' +
         '100%, ' +

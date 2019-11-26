@@ -67,6 +67,7 @@ body{
     margin-left: 25px;
     margin-right: 25px;
     filter: invert(100%);
+    position: relative;
  }
  .socialLinks{
     text-align: center;
@@ -124,28 +125,31 @@ body{
     transform: scale(1.05) perspective(1px);
     cursor: pointer;
     }
+/*Web page placement logic */
+.main-div {
+    display: flex;
+  }
 .section-1 {
     width: 30%;
     height: 600px;
     top: 10%;
     left: 12%;
-   
     position: absolute;
 }
 .section-2 {
-width: 30%;
-height: 300px;
-top: 10%;
-left: 58%;
-position: absolute;
+    width: 30%;
+    height: 300px;
+    top: 10%;
+    left: 58%;
+    position: absolute;
 }
 .section-3 {
-width: 30%;
-height: 300px;
-top: 40%;
-left: 58%;
+    width: 30%;
+    height: 300px;
+    top: 40%;
+    left: 58%;
 
-position: absolute;
+    position: absolute;
 }
 
 .about {
