@@ -37,7 +37,7 @@ body{
     width: 100%;
     margin-top: 0px;
     font-family: serif;
-    text-decoration: underline white;
+    
     color: white;
 }
 #home_lehe_info {
@@ -59,7 +59,8 @@ body{
     top: 50%;
     left: 61%;
     transform: translate(-50%, -50%);
-    border:10px solid
+    border:10px solid;
+    background-color: black;
     
  }
  .videosection .video {
