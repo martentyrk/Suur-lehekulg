@@ -36,7 +36,9 @@ body{
     text-align: center;
     width: 100%;
     margin-top: 0px;
-    font-family: monospace;
+    font-family: serif;
+    text-decoration: underline white;
+    color: white;
 }
 #home_lehe_info {
     position: absolute;
@@ -50,16 +52,7 @@ body{
     text-align: justify;
     line-height: 1.5em;
 }
-/*Video details*/
-.video { 
-    position: absolute;
-    margin: auto;
-    top: 50%;
-    left: 61%;
-    transform: translate(-50%, -50%);
-    border:10px solid
-    
- }
+
  /*Everything connected with social media links below */
  #social_media_icon{
     width: 50px;
