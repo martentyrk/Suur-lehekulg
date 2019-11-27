@@ -119,7 +119,7 @@ body{
     user-select: none;
 }
 .popup:hover {background-color: rgb(102, 102, 102);}
-/*Popup design and positioning*/
+/* Popup design and positioning */
 .popup .popuptext {
     visibility: hidden;
     width: 300px;

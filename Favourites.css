@@ -1,15 +1,3 @@
-body{
-    background-position: center top; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed;
-    background-color: black;
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
  /*Everything connected with social media links below */
  .social_media_icon{
     width: 50px;
