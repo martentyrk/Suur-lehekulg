@@ -28,7 +28,7 @@ body{
     position: absolute;
     margin: auto;
     top: 50%;
-    left: 61%;
+    left: 65%;
     transform: translate(-50%, -50%);
     border:10px solid;
     background-color: black;
@@ -140,7 +140,7 @@ body{
     padding: 8px 0;
     position: absolute;
     z-index: 1;
-    bottom: -35%;
+    bottom: 20%;
     left: 160%;
     margin-left: -80px;
     -webkit-user-select: none;        
