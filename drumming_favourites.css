@@ -1,0 +1,25 @@
+.main-div {
+    display: flex; 
+  }
+#alapealkiri {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 35%;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+.trummarid {
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: auto;
+    align-content: center;
+    left: 3%;
+    margin-top: 11%;
+}
+.trummarid img {
+    padding: 10px;
+    height: 25%;   
+}

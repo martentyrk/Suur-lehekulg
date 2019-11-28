@@ -1,0 +1,42 @@
+body{
+    background-position: center top; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main-div{
+}
+
+.info-tekst {
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 45%;
+    font-size: x-large;
+    color: white;
+    text-align: justify;
+    line-height: 1.5em;
+}
+/*Video details*/
+.video { 
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);    
+ }
+ .videosection .video {
+    background-color: red;
+    width: 30%;
+    height: 350px;
+    left: 86%;
+    top: 30%;
+    position: absolute;
+}
