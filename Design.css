@@ -101,7 +101,7 @@ body{
 
 .dropdown:hover .dropdownBtn{
     filter: invert(50%);
-    transform: scale(1.05) perspective(1px);
+    transform: scale(1.1) perspective(1px);
     cursor: pointer;
     }
 
@@ -118,7 +118,31 @@ body{
     -ms-user-select: none; 
     user-select: none;
 }
-.popup:hover {background-color: rgb(102, 102, 102);}
+
+
+.popup:hover {
+    background-color:
+    rgb(102, 102, 102);
+}
+
+.popup:hover .popuptext {
+    visibility: visible;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    left: 160%;
+    margin-left: -80px;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
 /* Popup design and positioning */
 .popup .popuptext {
     visibility: hidden;

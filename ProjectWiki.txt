@@ -1,0 +1,30 @@
+Veebilehe tutvustus:
+
+Tegime veebilehe oma kursakaaslasele Robert Lehele, kes on teel professionaalse trummari karjääri poole. Robert postitab iga paari nädala tagant Youtube'i ka videosi enda lugude coveritest. 
+Veebilehe eesmärk on anda hea kontsentreeritud ülevaade Roberti hetkesest trummarikarjäärist.
+
+
+Tiimiliikmed:
+
+Marten Türk
+Sander Sõrmus
+Robert Joonas
+
+
+Tööjaotus:
+
+Sander:
+
+Robert:
+
+Marten: Dropdown menu, sotsiaalmeedia nupud, Favourite drummers leht, custom cursor, equipmenti pop-up, üldine administreerimine.
+
+
+Raskused:
+
+Üks raskemaid asju oli Youtube'i video lisamine lehele nii, et see töötaks. Samuti oli alguses raske ka lehekülje paigutust paika saada.
+
+
+Mida õppisime:
+
+Õppisime javascripti kasutama ja selle rakendusi, veebilehe paigutuse erinevaid võimalusi, 
