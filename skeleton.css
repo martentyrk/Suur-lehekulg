@@ -30,10 +30,7 @@ body{
     margin: auto;
     top: 50%;
     left: 70%;
-    transform: translate(-50%, -50%);
-    border:10px solid;
-    background-color: black;
-    
+    transform: translate(-50%, -50%);    
  }
  .videosection .video {
     background-color: red;
