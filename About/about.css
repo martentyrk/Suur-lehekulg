@@ -1,0 +1,34 @@
+
+/*Web page placement logic */
+.main-div {
+    flex: 1
+  }
+.first-column {
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    width: 40%;
+    height: 70%;
+    font-size: 100%;
+}
+.about {
+    color: white;
+    top: 10%;
+    position: relative;
+    text-align: justify;
+    line-height: 1.5em;   
+}
+.aboutpealkiri {
+    color: white;
+    position: relative;
+    top: 8%;
+    text-align: center;
+}
+#profiilipilt {
+    position: absolute;
+    top: 34%;
+    right: 13%;
+    width: 21%;
+    height: auto;
+    border: solid white;
+}
