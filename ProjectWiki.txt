@@ -13,7 +13,7 @@ Robert Joonas
 
 Tööjaotus:
 
-Sander:
+Sander: Pictures leht, piltide slaider , youtube video lisamine, About leht, footer.  
 
 Robert:
 
@@ -28,3 +28,4 @@ Raskused:
 Mida õppisime:
 
 Õppisime javascripti kasutama ja selle rakendusi, veebilehe paigutuse erinevaid võimalusi, 
+ 
