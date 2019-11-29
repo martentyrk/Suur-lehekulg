@@ -1,6 +1,7 @@
 Veebilehe tutvustus:
 
-Tegime veebilehe oma kursakaaslasele Robert Lehele, kes on teel professionaalse trummari karjääri poole. Robert postitab iga paari nädala tagant Youtube'i ka videosi enda lugude coveritest. 
+Tegime veebilehe oma sõbrale Robert Lehele, kes on teel professionaalse trummari karjääri poole. 
+Robert postitab iga paari nädala tagant Youtube'i ka videosi enda lugude coveritest. 
 Veebilehe eesmärk on anda hea kontsentreeritud ülevaade Roberti hetkesest trummarikarjäärist.
 
 
@@ -15,16 +16,19 @@ Tööjaotus:
 
 Sander:
 
-Robert:
+Robert: taustapildi lisamine, About leht, validaatori errorite lahendamine, elementide paigutamine lehel, kujunduse stiliseerimine.
 
 Marten: Dropdown menu, sotsiaalmeedia nupud, Favourite drummers leht, custom cursor, equipmenti pop-up, üldine administreerimine.
 
 
 Raskused:
 
-Üks raskemaid asju oli Youtube'i video lisamine lehele nii, et see töötaks. Samuti oli alguses raske ka lehekülje paigutust paika saada.
+Üks raskemaid asju oli Youtube'i video lisamine lehele nii, et see töötaks. Samuti oli alguses raske ka lehekülje paigutust paika saada. 
+Git'is merge errorite lahendamine, HTML failides õigesti elementide div'idesse paigutamine.
 
 
 Mida õppisime:
 
-Õppisime javascripti kasutama ja selle rakendusi, veebilehe paigutuse erinevaid võimalusi, 
+Õppisime javascripti kasutama ja selle rakendusi, veebilehe paigutuse erinevaid võimalusi,
+Taustapildi paigutamist, fikseerimist, läbipaistvaks muutmist, HTML'i ja CSS'i failide korrektset koostamist ja loogilist ülesehitust, 
+objektide div'idesse paigutamist, Git'i kasutamist
