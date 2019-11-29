@@ -14,7 +14,7 @@ Robert Joonas
 
 Tööjaotus:
 
-Sander:
+Sander: Pictures leht, piltide slaider , youtube video lisamine, About leht, footer, elementide paigutamine lehel.  
 
 Robert: taustapildi lisamine, About leht, validaatori errorite lahendamine, elementide paigutamine lehel, kujunduse stiliseerimine.
 
