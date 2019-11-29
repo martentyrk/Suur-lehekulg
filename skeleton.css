@@ -10,8 +10,11 @@ body{
     overflow-y: hidden;
 }
 .main-div{
+    flex: 1;
 }
-
+div{
+    resize: both;
+}
 .info-tekst {
     position: absolute;
     top: 46%;
@@ -30,7 +33,9 @@ body{
     margin: auto;
     top: 50%;
     left: 70%;
-    transform: translate(-50%, -50%);    
+    transform: translate(-50%, -50%);  
+    resize: both;
+    overflow: auto;  
  }
  .videosection .video {
     background-color: red;
@@ -39,4 +44,6 @@ body{
     left: 86%;
     top: 30%;
     position: absolute;
+    resize: both;
+    overflow: auto;
 }

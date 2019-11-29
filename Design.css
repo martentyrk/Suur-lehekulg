@@ -8,6 +8,7 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+
 #pageTitle{
     font-size: 70px;
     text-align: center;
@@ -47,12 +48,7 @@ body{
     filter: invert(100%);
     position: relative;
  }
- .socialLinks{
-    text-align: center;
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-}
+
 .social_media_icon:active {
     transform:  translate(0px,2px);
     -webkit-transform: translate(0px, 2px);
@@ -101,7 +97,7 @@ body{
 
 .dropdown:hover .dropdownBtn{
     filter: invert(50%);
-    transform: scale(1.05) perspective(1px);
+    transform: scale(1.1) perspective(1px);
     cursor: pointer;
     }
 
@@ -118,7 +114,31 @@ body{
     -ms-user-select: none; 
     user-select: none;
 }
-.popup:hover {background-color: rgb(102, 102, 102);}
+
+
+.popup:hover {
+    background-color:
+    rgb(102, 102, 102);
+}
+
+.popup:hover .popuptext {
+    visibility: visible;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    left: 160%;
+    margin-left: -80px;
+    -webkit-user-select: none;        
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    user-select: none;
+}
 /* Popup design and positioning */
 .popup .popuptext {
     visibility: hidden;
@@ -160,4 +180,13 @@ body{
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
